@@ -42,22 +42,22 @@ Make sure you have the following installed and configured:
 
 ---
 
-## 📂 Project Folder Structure (Eclipse)
+## 📂 Project Folder Structure (Eclipse IDE)
 
-When imported into Eclipse as a Java project, the structure typically looks like this:
-DistributedKVStore/ <-- Eclipse Project Root
-├── src/ <-- Source Folder
-│ └── DistributedKVStore/
-│ └── NetworkingAssignment/
-│ ├── Node.java # Main Node server logic
-│ └── NodeInterface.java # Interface defining KV operations
-├── JRE System Library/ <-- Managed by Eclipse
-├── bin/ <-- (Typically where Eclipse puts compiled .class files)
-├── .settings/ <-- Eclipse project settings
-├── .classpath <-- Eclipse classpath definition
-├── .project <-- Eclipse project definition
-└── README.md <-- This file
+When you import or create this project in Eclipse, the typical layout in the "Package Explorer" will resemble this structure:
 
+```plaintext
+📁 DistributedKVStore/       <-- Eclipse Project Root
+├── 📦 src/                  <-- Java Source Folder
+│       └── 📦 NetworkingAssignment
+│           ├── 📄 Node.java          # Main Node server logic ⚙️
+│           └── 📄 NodeInterface.java # Interface defining KV operations 🧩
+├── 📚 JRE System Library    <-- Managed by Eclipse (JDK)
+├── ⚙️ bin/                  <-- (Default output for compiled .class files)
+├── ⚙️ .settings/            <-- Eclipse-specific project settings
+├── 📄 .classpath            <-- Eclipse classpath definition
+├── 📄 .project              <-- Eclipse project metadata
+└── 📄 README.md             <-- This instructions file
 
 
 ---
@@ -67,7 +67,7 @@ DistributedKVStore/ <-- Eclipse Project Root
 Follow these steps carefully to get the server running:
 
 1.  **Clone or Download:**
-    *   If using Git: `git clone <repository_url>`
+    *   If using Git: `git clone https://github.com/Aman3899/DistributedKVStore2.git`
     *   Otherwise: Download the source code zip and extract it.
 
 2.  **Import Project into Eclipse:**
